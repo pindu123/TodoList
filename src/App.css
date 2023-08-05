@@ -1,0 +1,77 @@
+.App { 
+  text-align: center;
+  background-color: rgb(229, 245, 233);
+  opacity: 0.6;
+  float: center;
+  padding-top: 20px;
+  margin-top: 50px;
+   
+    margin-left: 150px;
+    margin-right: 150px;
+   
+  height: 750px;
+  border-radius: 50px;
+}
+.r{
+  background-color: rgb(255, 255, 254);
+}
+ 
+ .list
+{
+ border: none;
+ padding: 0;
+  background-color: wheat;
+}
+ 
+ 
+@media(min-width:800px)
+{
+  
+  input[type="text"]{
+    height:50px;
+    width:400px;
+    border-radius: 15px;
+    font-size: 30px;
+  }
+  .todo-list
+{
+ list-style-type: none;
+ background-color: wheat;
+ margin-left: 500px;
+ margin-right: 500px;
+ border: 1px solid black;
+}
+.add
+{
+  border-radius: 15px;
+  background-color: cadetblue;
+  padding: 17px;
+}
+  
+}
+ 
+@media(max-width:800px){
+  
+  input[type="text"]{
+    height:30px;
+    width:200px;
+    border-radius: 15px;
+  }
+.todo-list
+{
+ list-style-type: none;
+ background-color: wheat;
+  
+  margin-block: 1px;
+}
+.add
+{
+  border-radius: 15px;
+  background-color: cadetblue;
+  padding: 10px;
+}
+}
+img{
+  height:15px;
+  width:15px;
+}
